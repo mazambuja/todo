@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C37274319AF767C004F5025 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37274219AF767C004F5025 /* TaskManager.swift */; };
 		9CBEA00F19AF6BDB00FD1C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEA00E19AF6BDB00FD1C74 /* AppDelegate.swift */; };
 		9CBEA01119AF6BDB00FD1C74 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEA01019AF6BDB00FD1C74 /* FirstViewController.swift */; };
 		9CBEA01319AF6BDB00FD1C74 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEA01219AF6BDB00FD1C74 /* SecondViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C37274219AF767C004F5025 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		9CBEA00919AF6BDB00FD1C74 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBEA00D19AF6BDB00FD1C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CBEA00E19AF6BDB00FD1C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				9CBEA01419AF6BDB00FD1C74 /* Main.storyboard */,
 				9CBEA01719AF6BDB00FD1C74 /* Images.xcassets */,
 				9CBEA00C19AF6BDB00FD1C74 /* Supporting Files */,
+				9C37274219AF767C004F5025 /* TaskManager.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				9CBEA01319AF6BDB00FD1C74 /* SecondViewController.swift in Sources */,
 				9CBEA00F19AF6BDB00FD1C74 /* AppDelegate.swift in Sources */,
+				9C37274319AF767C004F5025 /* TaskManager.swift in Sources */,
 				9CBEA01119AF6BDB00FD1C74 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +412,7 @@
 				9CBEA02919AF6BDB00FD1C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CBEA02A19AF6BDB00FD1C74 /* Build configuration list for PBXNativeTarget "TodoTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +421,7 @@
 				9CBEA02C19AF6BDB00FD1C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
