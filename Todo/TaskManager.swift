@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 MGA Software. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-var taskMgr = TaskManager()
+var taskMgr:TaskManager = TaskManager()
 
 struct task{
     var name = "Un-Named"

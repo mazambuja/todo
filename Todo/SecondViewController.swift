@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, UITextFieldDelegate {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,16 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
+        self.view.endEditing(true)
+    }
+    
+    //UITextFieldDelegate
+    func textFieldShouldReturn(textField: UITextField!) -> Bool{
+        textField.resignFirstResponder()
+        return true
+    }
+    
 
 }
 
