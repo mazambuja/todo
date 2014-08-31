@@ -25,6 +25,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Tasks" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="tableTasks" destination="KNi-0H-wOr" id="bcA-qd-IIz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -67,6 +70,9 @@
                                 <state key="normal" title="Add Task">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonAddTask_Click:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="l9Y-79-DDa"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" minimumFontSize="17" id="m2K-hb-oz6">
                                 <rect key="frame" x="35" y="163" width="251" height="30"/>
@@ -81,6 +87,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Add New" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="txtDesc" destination="m2K-hb-oz6" id="Rep-P5-VGO"/>
+                        <outlet property="txtTask" destination="IPM-2s-F0V" id="fNB-O3-s8f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>

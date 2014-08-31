@@ -9,7 +9,10 @@
 import UIKit
 
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-                            
+    
+    @IBOutlet var tableTasks: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,22 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         // Dispose of any resources that can be recreated.
     }
 
+    //Return to view
+    override func viewWillAppear(animated: Bool) {
+        tableTasks.reloadData()
+    }
+
+    //UITableViewDelete
+    func tableView(tableView: UITableView!, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath!){
+        
+        if(editingStyle == UITableViewCellEditingStyle.Delete){
+            taskMgr.tasks.removeAtIndex(indexPath.row)
+            tableTasks.reloadData()
+        }
+        
+        
+    }
+    
 
     //UITableViewDataSource
     func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int{
