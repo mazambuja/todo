@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9C37274319AF767C004F5025 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37274219AF767C004F5025 /* TaskManager.swift */; };
+		9C37274819B37AF0004F5025 /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C37274419B37AF0004F5025 /* icon60.png */; };
+		9C37274919B37AF0004F5025 /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C37274519B37AF0004F5025 /* icon76.png */; };
+		9C37274A19B37AF0004F5025 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C37274619B37AF0004F5025 /* icon120.png */; };
+		9C37274B19B37AF0004F5025 /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C37274719B37AF0004F5025 /* icon152.png */; };
 		9CBEA00F19AF6BDB00FD1C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEA00E19AF6BDB00FD1C74 /* AppDelegate.swift */; };
 		9CBEA01119AF6BDB00FD1C74 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEA01019AF6BDB00FD1C74 /* FirstViewController.swift */; };
 		9CBEA01319AF6BDB00FD1C74 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEA01219AF6BDB00FD1C74 /* SecondViewController.swift */; };
@@ -28,6 +32,10 @@
 
 /* Begin PBXFileReference section */
 		9C37274219AF767C004F5025 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		9C37274419B37AF0004F5025 /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon60.png; sourceTree = "<group>"; };
+		9C37274519B37AF0004F5025 /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon76.png; sourceTree = "<group>"; };
+		9C37274619B37AF0004F5025 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		9C37274719B37AF0004F5025 /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon152.png; sourceTree = "<group>"; };
 		9CBEA00919AF6BDB00FD1C74 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBEA00D19AF6BDB00FD1C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CBEA00E19AF6BDB00FD1C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +101,10 @@
 		9CBEA00C19AF6BDB00FD1C74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C37274419B37AF0004F5025 /* icon60.png */,
+				9C37274519B37AF0004F5025 /* icon76.png */,
+				9C37274619B37AF0004F5025 /* icon120.png */,
+				9C37274719B37AF0004F5025 /* icon152.png */,
 				9CBEA00D19AF6BDB00FD1C74 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,8 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C37274819B37AF0004F5025 /* icon60.png in Resources */,
+				9C37274A19B37AF0004F5025 /* icon120.png in Resources */,
 				9CBEA01619AF6BDB00FD1C74 /* Main.storyboard in Resources */,
 				9CBEA01819AF6BDB00FD1C74 /* Images.xcassets in Resources */,
+				9C37274919B37AF0004F5025 /* icon76.png in Resources */,
+				9C37274B19B37AF0004F5025 /* icon152.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
